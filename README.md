@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install bootstrap-monefield-rails
+    $ gem install bootstrap-moneyfield-rails
 
 ## Usage
 
@@ -35,7 +35,7 @@ in app/assets/application.js
 in form view, you should add `data-role='moneyfield-euro'` within input tag as the follows: for example, in `simple-form` view template,
 
 ```
-<%= f.input :tag_list, input_html:{data:{role:'moneyfield'}} %>
+<%= f.input :tag_list, input_html:{data:{role:'moneyfield-euro'}} %>
 ```
 
 That's it
