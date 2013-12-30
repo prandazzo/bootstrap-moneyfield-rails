@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bootstrap/tagsinput/rails/version'
+require 'bootstrap/moneyfield/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bootstrap-tagsinput-rails"
-  spec.version       = Bootstrap::Tagsinput::Rails::VERSION
-  spec.authors       = ["Hyo Seong Choi"]
-  spec.email         = ["rorlab@gmail.com"]
-  spec.description   = %q{To gemify bootstrap-tagsinput for assets pipleline}
+  spec.name          = "bootstrap-moneyfield-rails"
+  spec.version       = Bootstrap::Moneyfield::Rails::VERSION
+  spec.authors       = ["Piero Randazzo, Diego Plentz, Elan Dubrofsky"]
+  spec.email         = ["piero.randazzo81@gmail.com"]
+  spec.description   = %q{To gemify bootstrap-money-field and jQuery maskMoney for assets pipleline}
   spec.summary       = %q{Packaging the assets with Bunlder}
-  spec.homepage      = "http://rorlab.github.io/bootstrap-taginput-rails/"
+  spec.homepage      = "https://github.com/prandazzo/bootstrap-moneyfield-rails"
   spec.license       = "MIT"
 
   # spec.files         = `git ls-files`.split($/)

@@ -1,20 +1,19 @@
-# Bootstrap::Tagsinput::Rails
+# Bootstrap::Moneyfield::Rails
 
-Original Git source - https://github.com/timschlechter/bootstrap-tagsinput
+https://github.com/dubroe/bootstrap-money-field
+http://plentz.github.io/jquery-maskmoney
 
-To gemify the assets of `bootstrap-tagsinput` jQuery plugin for Rails >= 3.1
-
-[![Gem Version](https://badge.fury.io/rb/bootstrap-tagsinput-rails.png)](http://badge.fury.io/rb/bootstrap-tagsinput-rails)
+To gemify bootstrap-money-field and jQuery maskMoney for Rails >= 3.1
 
 ## Compatibility
 
-Designed for Bootstrap 2.3.2 and 3
+Designed for Bootstrap 2.3.2 (untested on 3.x)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'bootstrap-tagsinput-rails'
+    gem 'bootstrap-moneyfield-rails'
 
 And then execute:
 
@@ -22,26 +21,20 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install bootstrap-tagsinput-rails
+    $ gem install bootstrap-monefield-rails
 
 ## Usage
 
 in app/assets/application.js
 
 ```
-//= require bootstrap-tagsinput
+//= require bootstrap-moneyfield
 ```
 
-in app/assets/application.css
+in form view, you should add `data-role='moneyfield-euro'` within input tag as the follows: for example, in `simple-form` view template,
 
 ```
-*= require bootstrap-tagsinput
-```
-
-in form view, you should add `data-role='tagsinput'` within input tag as the follows: for example, in `simple-form` view template,
-
-```
-<%= f.input :tag_list, input_html:{data:{role:'tagsinput'}} %>
+<%= f.input :tag_list, input_html:{data:{role:'moneyfield'}} %>
 ```
 
 That's it

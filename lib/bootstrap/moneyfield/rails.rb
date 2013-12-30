@@ -1,7 +1,7 @@
-require "bootstrap/tagsinput/rails/version"
+require "bootstrap/moneyfield/rails/version"
 
 module Bootstrap
-  module Tagsinput
+  module Moneyfield
     module Rails
       class Engine < ::Rails::Engine
       end

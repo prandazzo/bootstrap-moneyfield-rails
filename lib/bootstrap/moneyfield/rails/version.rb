@@ -1,7 +1,7 @@
 module Bootstrap
-  module Tagsinput
+  module Moneyfield
     module Rails
-      VERSION = "0.3.2.0"
+      VERSION = "0.1.0.0"
     end
   end
 end
