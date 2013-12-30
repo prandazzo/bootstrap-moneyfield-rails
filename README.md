@@ -1,6 +1,7 @@
 # Bootstrap::Moneyfield::Rails
 
 https://github.com/dubroe/bootstrap-money-field
+
 http://plentz.github.io/jquery-maskmoney
 
 To gemify bootstrap-money-field and jQuery maskMoney for Rails >= 3.1
