@@ -413,7 +413,7 @@ $(document).ready(function() {
 		var field=$(elm);
 		field.wrap("<div class='input-prepend'>");
     	field.before("<span class='add-on'>&euro;</span>");
-    	if (field.is(":empty") || field.val() == "0,00") {
+    	if (field.val().length==0 || field.val() == "0,00") {
 	  		field.val("0,00");
 		}
 		field.maskMoney({thousands:'.', decimal:',', allowZero:true});
