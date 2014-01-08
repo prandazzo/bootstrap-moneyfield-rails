@@ -416,7 +416,7 @@ $(document).ready(function() {
     	if (field.is(":empty")){
 	  		field.val("0.00")
 		}
-		field.maskMoney({thousands:'.', decimal:',', allowZero:true});  
+		field.maskMoney({thousands:',', decimal:'.', allowZero:true});  
 	});
 });
 
